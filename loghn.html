@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <form action="" autocomplete="on" id="form1">
+        <fieldset>
+        <legend>Personal Info</legend>
+        <div>
+            <label for="">First Name</label> <input type="text" name="fname" id="">
+            <label for="">last Name</label> <input type="text" name="lname" id="">
+        </div>
+        <div>
+            <label for="">Email</label> <input type="email" name="" id="">
+            <label for="">Phone</label> <input type="tel" name="" id="">
+        </div>
+        <label for="">age</label> <input type="number" name="" id=""> <br>
+        <label for="">Gender</label> <br> <input type="radio" name="gen" id="Male">
+        <label for="Male" >Male</label> <br> 
+        <input type="radio" name="gen" id="female"><label for="female">female</label>
+        </fieldset>
+        <fieldset>
+            <legend>technical</legend>
+                <label for="">Skills</label> <br>
+                <input type="checkbox"> <label for="">githup</label> <br>
+                <input type="checkbox"> <label for="">githup</label> <br>
+                <input type="checkbox"> <label for="">githup</label> <br>
+                <input type="checkbox"> <label for="">githup</label> <br>
+                <label for="">Your University</label><input list="University">
+            <datalist id="University">
+                <option value="Tanta University">
+                <option value="Mansoura University">
+                <option value="Cairo University">
+                <option value="Alex University">
+                <option value="Aswan University"> 
+            </datalist>  <br>
+            <label for="">Your Faculity</label> 
+            <select name="fac" id=""> 
+                <option value="" name="fac">Computer Scince</option>
+                <option value=" "name="fac">Computer Scince</option>
+                <option value="" name="fac">Computer Scince</option>
+             </select>
+            <br> <br>
+             <label for="">Gradution date</label> <input type="date" name="" id="">
+        </fieldset>
+        <fieldset>
+        <legend>optional</legend>
+            <div>
+                <label for="">Fav color</label> <input type="color"> <label for="">Upload your C.V</label>
+                <input type="file"> 
+            </div>
+            <label for="">githup link</label> <input type="url" name="" id=""> 
+            <br>
+            <label for="">Your Comments</label> <textarea name="" id="" cols="30" rows="10"></textarea>
+        </fieldset> <br>
+        <fieldset>
+        <legend>Submation</legend>
+        <input type="submit" value="submit" class="fin"> <input type="reset" value="reset" >
+        <input type="submit" value="submit ADMIN" formmethod="post"> 
+        <input type="submit" value="submit Member" formmethod="get"> 
+        </fieldset>
+    </form>
+    <label for="form1">email</label> <input type="email" name="mail" id="mail" form="form1">
+</body>
+</html>

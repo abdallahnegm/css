@@ -1,0 +1,16 @@
+body{
+    font-weight: bold;
+}
+input{
+    display: inline-block;
+    margin: 10px;
+}
+label{
+    padding: 10px ;
+    margin: 50px;
+    background-color: brown;
+    
+}
+body{
+    background-color: azure;
+}

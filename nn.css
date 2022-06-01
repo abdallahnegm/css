@@ -1,0 +1,32 @@
+.free{
+    width: 300px;
+    height: 600px;
+    margin: 50px;
+    background-color: darkturquoise;
+    position: relative;
+
+}
+p{
+    background-color: cadetblue;
+    text-align: center;
+}
+.crc{
+    margin: 50px auto;
+    border-radius: 50%;
+    text-align: center;
+    background-color: wheat;
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    left: 40%;
+    top: 30%;
+}
+.free::before{
+    left: -50px;
+    position: absolute;
+    background-color: coral;
+    width: 50px;
+    content: "befor";
+    width: 100px;
+    height: 100%;
+}
